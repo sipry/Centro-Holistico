@@ -1,0 +1,141 @@
+body{
+    font-family: 'Karla', sans-serif;
+  }
+
+  /* navbar */
+  
+.navbar-light .navbar-toggler{
+
+    border-color: transparent;
+    color: white;
+
+}
+
+.fa-spa{
+    width: 80px;
+    height: 80px;
+    line-height: 50px;
+    font-size: 30px;
+    color: black;
+    display: contents;
+
+}
+.fas {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* img-home*/
+#img-home{
+
+    background-position: center;
+    background-repeat: no-repeat;   
+    min-height: 900px;
+
+}
+
+.carousel-caption {
+  bottom: 15rem;
+  z-index: 10;
+}
+
+#carousel-item-home {
+  height: 50rem;
+}
+/* btn home-page */
+
+.btn-primary{
+    background-color: rgba(140, 140, 140, 0.29);
+    border-color: transparent;
+}
+
+.btn-primary:hover{
+    background-color: rgba(10, 25, 18, 0.29);
+    border-color: transparent;
+}
+
+/* every page */
+hr {
+    margin: 5rem 0; 
+  } 
+
+footer{
+    padding: 100px;
+}
+  
+/* about */
+
+.about {
+    padding-top: 50px;
+}
+
+/* lista de terapias en el caurousel */
+
+.carousel-indicators li{
+box-sizing: content-box;
+-ms-flex: 0 1 auto;
+flex: 0 1 auto;
+width: 30px;
+height: 3px;
+margin-right: 3px;
+margin-left: 3px;
+text-indent: -999px;
+cursor: pointer;
+background-color: black;
+background-clip: padding-box;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+opacity: .5;
+transition: opacity .6s ease;
+}
+.carousel-indicators{
+bottom: -100;
+}
+
+.col-lg-4{
+    /* para centralizar el texto de los items del carousel */
+text-align: center;
+}
+.btn-corousel{
+position: absolute;
+right: 0;
+left: 0;
+z-index: 15;
+display: flex;
+justify-content: center;
+padding-left: 0;
+margin-right: 15%;
+margin-left: 15%;
+list-style: none;
+bottom: -70
+}
+
+
+
+/* info- page */
+
+.info-page {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+ 
+
+/* contacto */
+.btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea.form-control{
+    min-height: 100px;
+    max-height: 300px;
+}
+  
+
+
+        
